@@ -30,8 +30,9 @@ body {
 /* -------PORTFOLIO BTN------- */
 
 .btn-list {
-    
+    list-style: none;
 }
+
 .btn-list-item {
     /* font-weight: 500; */
     font-size: 16px;
@@ -52,6 +53,9 @@ body {
 
 /* -------PORTFOLIO PROJECTS------- */
 
+.projects-list {
+    list-style: none;
+}
 
 .projects-list-title {
     /* font-weight: 700; */
@@ -93,6 +97,13 @@ body {
 .web {
     color: var(--accent-color);
 }
+
+.menu-list,
+.contacts-list {
+    list-style: none;
+}
+
+
 
 .menu-link {
     /* font-weight: 500; */
@@ -161,6 +172,11 @@ body {
 
 /* --------Feature------- */
 
+.feature-list,
+.work-list {
+    list-style: none;
+}
+
 .feature-title {
     /* font-weight: 700; */
     font-size: 14px;
@@ -183,7 +199,7 @@ body {
     /* font-weight: 700; */
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
@@ -196,7 +212,7 @@ body {
     /* font-weight: 500; */
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.03em;
     
     color: var(--main-text-color);
@@ -206,10 +222,13 @@ body {
     /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.03em;
-    
     color: var(--other-row-color);
+}
+
+.team-list {
+    list-style: none;
 }
 
 
@@ -245,6 +264,10 @@ body {
     font-style: normal;
 }
 
+.address-list {
+    list-style: none;
+}
+
 .address-link {
     /* font-weight: 400; */
     font-size: 14px;
@@ -252,7 +275,6 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
-    
 }
 
 .address-link:hover,
@@ -264,3 +286,4 @@ body {
     color: var(--white-color);
     
 }
+
